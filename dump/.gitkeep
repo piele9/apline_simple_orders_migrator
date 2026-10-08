@@ -1,0 +1,2 @@
+# Utrzymuje folder dump/ w repozytorium, gdy nie ma w nim śledzonych plików SQL.
+# Właściwe zrzuty .sql są ignorowane przez Git (zob. ../.gitignore) — zawierają dane osobowe.

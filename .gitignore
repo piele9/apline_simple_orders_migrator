@@ -1,0 +1,18 @@
+# Pliki systemowe i edytorów
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.orig
+*~
+
+# Zrzuty SQL zawierają dane osobowe klientów — nigdy ich nie commituj.
+dump/*.sql
+dump/*.sql.gz
+dump/*.zip
+dump/asom_*
+
+# Zostaw strukturę folderu i jego zabezpieczenia w repozytorium.
+!dump/index.php
+!dump/.htaccess
+!dump/.gitkeep

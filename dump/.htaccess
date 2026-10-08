@@ -1,0 +1,11 @@
+# APLINE Simple Orders Migrator — folder zrzutów jest prywatny.
+# Zrzuty SQL zawierają dane osobowe klientów; nigdy nie udostępniaj ich przez HTTP.
+# Ewentualne pobieranie przez administratora idzie przez moduł, nie przez bezpośredni adres.
+
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Order deny,allow
+    Deny from all
+</IfModule>

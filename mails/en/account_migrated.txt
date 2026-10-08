@@ -1,0 +1,15 @@
+{shop_name}
+
+Dzień dobry {firstname} {lastname},
+
+Twoje konto klienta z naszego poprzedniego sklepu zostało przeniesione do
+nowego sklepu {shop_name}. Razem z kontem przeniosła się także historia
+Twoich zamówień.
+
+Ze względów bezpieczeństwa Twoje stare hasło nie zostało przeniesione. Ustaw
+nowe hasło, aby zalogować się na konto, korzystając z poniższego linku:
+
+{reset_url}
+
+Ta wiadomość została wysłana na adres {email}. Jeśli nie jest dla Ciebie
+oczekiwana, możesz ją zignorować.

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Konto zostało przeniesione</title>
+</head>
+<body style="font-family: Arial, sans-serif; color: #333; line-height: 1.5;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td align="center">
+                <table width="600" cellpadding="20" cellspacing="0" border="0" style="background:#ffffff;">
+                    <tr>
+                        <td>
+                            <h2 style="color:#2980b9;">{shop_name}</h2>
+                            <p>Dzień dobry {firstname} {lastname},</p>
+                            <p>
+                                Twoje konto klienta z naszego poprzedniego sklepu zostało przeniesione
+                                do nowego sklepu <strong>{shop_name}</strong>. Razem z kontem
+                                przeniosła się także historia Twoich zamówień.
+                            </p>
+                            <p>
+                                Ze względów bezpieczeństwa Twoje stare hasło nie zostało przeniesione.
+                                Ustaw nowe hasło, aby zalogować się na konto:
+                            </p>
+                            <p style="text-align:center; margin: 24px 0;">
+                                <a href="{reset_url}"
+                                   style="background:#2980b9; color:#ffffff; padding:12px 24px;
+                                          text-decoration:none; border-radius:4px; display:inline-block;">
+                                    Ustaw nowe hasło
+                                </a>
+                            </p>
+                            <p style="font-size:12px; color:#777;">
+                                Jeśli przycisk nie działa, skopiuj ten link i wklej go w przeglądarce:<br>
+                                <a href="{reset_url}">{reset_url}</a>
+                            </p>
+                            <p style="font-size:12px; color:#777;">
+                                Ta wiadomość została wysłana na adres {email}. Jeśli nie jest dla Ciebie oczekiwana, możesz ją zignorować.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
